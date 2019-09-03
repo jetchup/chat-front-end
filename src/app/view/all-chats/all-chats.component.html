@@ -1,0 +1,15 @@
+<div class='container'>
+  <div class='background main'>
+    <div class='chat preview' *ngFor="let chat of chats">
+      <div class='avatar'></div>
+      <div *ngFor = "let message of chat.messages, let last = last">
+      <div class='text' *ngIf ="last">
+        <h4 >
+          {{message.sender}}
+        </h4>
+        <p *ngIf="last">{{message.message}}</p>
+      </div>
+    </div>
+   </div>
+</div>
+

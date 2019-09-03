@@ -1,0 +1,22 @@
+.chat.preview {
+    margin: 0 0 5px 0;
+    padding: 5px ;
+    background-color: #FDFFFC;
+    height: 80px;
+    border-radius: 40px 0 0 40px;
+    box-shadow: 0 3px 6px  rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: row;
+}
+.avatar {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    background-color: #FF9F1C;
+}
+.text {
+    padding: 0 20px;
+}
+.text .p {
+    margin: 0;
+}
